@@ -1,0 +1,11 @@
+h4 {
+color: red;
+}
+#profile_form {
+    margin: auto;
+    background-color: #F4A460;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 10px;
+}

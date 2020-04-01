@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="/static/css/style.css" type="text/css">
+{% endblock %}
+
+{% block content %}
+<img src="/static/img/mars.png" style="float: left; margin-left: 100px;">
+<h1>Аварийный доступ</h1>
+<form id="my_form" method="post" style="margin-left: 100px;">
+    <div>
+        <h5>Id астронавта</h5>
+        <input type="text" class="form-control" id="id_a" style="width: 500px;">
+        <br>
+        <br>
+        <h5>Пароль астронавта</h5>
+        <input type="text" class="form-control" id="password_a" style="width: 500px;">
+        <br>
+        <br>
+        <h5>Id капитана</h5>
+        <input type="text" class="form-control" id="id_c" style="width: 500px;">
+        <br>
+        <br>
+        <h5>Пароль капитана</h5>
+        <input type="text" class="form-control" id="password_c" style="width: 500px;">
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary">Доступ</button>
+    </div>
+</form>
+{% endblock %}

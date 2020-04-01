@@ -1,0 +1,52 @@
+{
+  "astronauts": [
+    {
+      "name": "Ридли Скотт",
+      "image": "/static/img/a1.jpg",
+      "professions": [
+        "оператор марсохода",
+        "метеоролог"
+      ]
+    },
+    {
+      "name": "Энди Уир",
+      "image": "/static/img/a2.jpg",
+      "professions": [
+        "специалист по радиационной защите",
+        "астрогеолог"
+      ]
+    },
+    {
+      "name": "Марк Уотни",
+      "image": "/static/img/a3.jpg",
+      "professions": [
+        "гляциолог",
+        "киберинженер"
+      ]
+    },
+    {
+      "name": "Венката Капур",
+      "image": "/static/img/a4.jpg",
+      "professions": [
+        "штурман",
+        "пилот дронов"
+      ]
+    },
+    {
+      "name": "Тедди Сандрес",
+      "image": "/static/img/a5.jpg",
+      "professions": [
+        "пилот",
+        "климатолог"
+      ]
+    },
+    {
+      "name": "Шон Бин",
+      "image": "/static/img/a6.jpg",
+      "professions": [
+        "врач",
+        "экзобиолог"
+      ]
+    }
+  ]
+}

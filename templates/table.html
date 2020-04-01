@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+<h2 style="margin-left: 200px;">Оформление каюты</h2>
+    <div class="alert alert-secondary" role="alert" style="margin-left: 100px; width: 500px;">
+        <h5>&emsp;&emsp;Цвет стен&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;Эмблема&emsp;&emsp;</h5>
+    </div>
+        {% if sex == 'female' %}
+            {% if age < 21 %}
+                <img src="/static/img/red.png" style="margin-left: 100px; width: 250px;">
+                <img src="/static/img/little_marsianin.png" style="width: 250px;">
+            {% else %}
+                <img src="/static/img/pink.png" style="margin-left: 100px; width: 250px;">
+                <img src="/static/img/big_marsianin.png" style="margin-left: 35px;">
+            {% endif %}
+        {% endif %}
+        {% if sex == 'male' %}
+            {% if age < 21 %}
+                <img src="/static/img/blue.png" style="margin-left: 100px; width: 250px;">
+                <img src="/static/img/little_marsianin.png" style="width: 250px;">
+            {% else %}
+                <img src="/static/img/dark_blue.png" style="margin-left: 100px; width: 250px;">
+                <img src="/static/img/big_marsianin.png" style="margin-left: 35px;">
+            {% endif %}
+        {% endif %}
+</div>
+{% endblock %}

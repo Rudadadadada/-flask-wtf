@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="/static/css/style.css" type="text/css">
+{% endblock %}
+
+{% block content %}
+<div style="margin-left: 100px;">
+<h2 style="margin-left: 100px;">Размещение по каютам</h2>
+    {% set room = 'Каюта №' %}
+    {% for item in list %}
+        <p>{{item}} - {{room}} {{loop.index}}{% if loop.first %} - капитан корабля{% endif %}</p>
+    {% endfor %}
+</div>
+{% endblock %}
